@@ -1,29 +1,138 @@
+:root {
+    --primary: #e37625;
+    --secondary: #bec358;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e37625;
+    font-family: 'Raleway', sans-serif;
+}
+
+p, span, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-color {
+    color: var(--primary) !important;
+}
+
+.secondary-color {
+    color: var(--secondary);
+}
+
+.primary-background {
+    background-color: var(--primary);
+}
+
+.secondary-background {
+    background-color: var(--secondary);
+}
+
+.navLink {
+    color: #000000;
+    transition: .3s all ease;
+}
+
+.navLink:hover {
+    color: var(--primary) !important;
+}
+
+.navLink:active {
+    color: var(--primary) !important;
+}
+
+.active {
+    color: var(--primary) !important;
+}
+
+.subBanner {
+    font-size: 2rem;
+    color: white;
+    background-color: #cccccc;
+    filter: brightness(90%);
+}
+
+.button-primary {
+    color: #ffff;
+    background-color: var(--primary);
+    transition: all .25s ease;
+}
+
+.button-secondary {
+    color: #ffff;
+    background-color: var(--secondary);
+    transition: all .25s ease;
+}
+
+.button-primary:hover, .button-secondary:hover {
+    color: #ffff;
+    filter: brightness(75%);
+}
+
+.button-primary:active {
+    color: #ffff;
+    filter: brightness(75%);
+}
+
+.button-primary:focus {
+    color: #ffff;
+    filter: brightness(125%);
+}
+
+.homeImage {
+    height: 400px;;
+    width: 100%;
+}
+
+.goodReasonsList {
+    list-style: none;
+}
+
+.goodReason {
+    font-size: 1.25rem;
+    margin-left: 12px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;;
+}
+
 .py-6 {
-    padding-top: 4rem!important;
-    padding-bottom: 4rem!important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
 }
 
 .py-7 {
-    padding-top: 5rem!important;
-    padding-bottom: 5rem!important;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
 }
 
 .py-8 {
-    padding-top: 6rem!important;
-    padding-bottom: 6rem!important;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
 }
 
 .py-10 {
-    padding-top: 8rem!important;
-    padding-bottom: 8rem!important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
 }
 
 .my-6 {
-    margin-top: 4rem!important;
-    margin-bottom: 4rem!important;
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
 }
 
 .my-7 {
-    margin-top: 5rem!important;
-    margin-bottom: 5rem!important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
 }
+
+.banner {
+    background-image: url("../assets/banner30.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
